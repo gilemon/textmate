@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 require 'optparse'
 require 'shellwords'
+
+Encoding.default_external = Encoding::UTF_8
 require 'fileutils'
 require 'json'
 require 'set'
