@@ -2,6 +2,13 @@ Title: Release Notes
 
 # Changes
 
+## 2026-10-26 (v2.0.23+silicon)
+
+* Unofficial build of v2.0.23 that builds natively on Apple Silicon with macOS 15 (Sequoia), Xcode 16 and current Homebrew (`/opt/homebrew`).
+* Minimum macOS version raised to 11.0.
+* Build scripts no longer require a UTF-8 locale.
+* See [all changes since v2.0.23](https://github.com/gilemon/textmate/compare/v2.0.23...apple-silicon)
+
 ## 2021-10-12 (v2.0.23)
 
 * Miscellaneous improvements, [see changes since v2.0.22 on GitHub](https://github.com/textmate/textmate/compare/v2.0.22...v2.0.23)
