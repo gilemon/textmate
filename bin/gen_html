@@ -2,6 +2,8 @@
 require 'optparse'
 require 'erb'
 
+Encoding.default_external = Encoding::UTF_8
+
 def expand_tpl(str, binding)
   ERB.new(str, 0, '%-').result(binding)
 end
